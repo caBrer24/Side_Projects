@@ -5,7 +5,7 @@ while True:
         if started:
             print('Already started you foo')
         else:
-            started = True #Is the car started? yes or Simon ya arranco
+            started = True #Is the car started?
             print('Car started... Ready to go!')
     elif comma == "help":
         print('start - to start the car')
