@@ -4,7 +4,7 @@ max_attempts = 3
 attempts_made = 0
 
 
-# Asks user for names
+# Everytime the user types a pin, the variable "attempts_made" will increase by 1 unit
 
 name = input("Name: ")
 print(f'Hey {name}, you have 3 attempts to guess the pin and unlock the system')
